@@ -11,7 +11,7 @@ int main()
     while(1) {
         for (i = 30; i >= 0; i--) {
             lcd.locate(5,1);
-            lcd.printf(%5i, i);
+            lcd.printf("%5i", i);
             wait(1);
         }
     }
